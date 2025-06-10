@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { label: "Dashboard", href: "/dashboard" },
   { label: "Onboard Vendor", href: "/onboard-vendor" },
   { label: "Add Manually Vendor", href: "/add-manually-vendor" },
+  { label: "Custom Booking", href: "/custom-booking" },
 ];
 
 export default function Navbar() {

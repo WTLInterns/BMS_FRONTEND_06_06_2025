@@ -7,84 +7,9 @@ import { PencilSquareIcon, TrashIcon, EnvelopeIcon } from "@heroicons/react/24/o
 import { useTheme } from '../utils/ThemeContext';
 import { FaMoon, FaSun } from 'react-icons/fa';
 
-export const DUMMY_VENDORS = [
-  {
-    id: 1,
-    vendorCompanyName: "John Doe Pvt Ltd",
-    contactNo: "1234567890",
-    alternateMobileNo: "9876543210",
-    city: "New York",
-    vendorEmail: "john@example.com",
-    bankName: "Bank of America",
-    bankAccountNo: "123456789",
-    ifscCode: "BOFA0001234",
-    aadharNo: "111122223333",
-    panNo: "ABCDE1234F",
-    udyogAadharNo: "UAN1234567",
-    govtApprovalCertificate: null,
-    vendorDocs: null,
-    vendorImage: null,
-    aadharPhoto: null,
-    panPhoto: null,
-    vendorOtherDetails: "First vendor dummy data.",
-    govtApprovalCertificateUrl: "",
-    vendorDocsUrl: "",
-    vendorImageUrl: "",
-    aadharPhotoUrl: "",
-    panPhotoUrl: ""
-  },
-  {
-    id: 2,
-    vendorCompanyName: "Jane Smith Supplies",
-    contactNo: "2222333344",
-    alternateMobileNo: "5555666677",
-    city: "Los Angeles",
-    vendorEmail: "jane@example.com",
-    bankName: "Chase",
-    bankAccountNo: "987654321",
-    ifscCode: "CHASE0005678",
-    aadharNo: "444455556666",
-    panNo: "FGHIJ5678K",
-    udyogAadharNo: "UAN7654321",
-    govtApprovalCertificate: null,
-    vendorDocs: null,
-    vendorImage: null,
-    aadharPhoto: null,
-    panPhoto: null,
-    vendorOtherDetails: "Second vendor dummy data.",
-    govtApprovalCertificateUrl: "",
-    vendorDocsUrl: "",
-    vendorImageUrl: "",
-    aadharPhotoUrl: "",
-    panPhotoUrl: ""
-  },
-  {
-    id: 3,
-    vendorCompanyName: "Vendor X Corp",
-    contactNo: "3333444455",
-    alternateMobileNo: "8888999900",
-    city: "Chicago",
-    vendorEmail: "vendorx@example.com",
-    bankName: "Wells Fargo",
-    bankAccountNo: "555555555",
-    ifscCode: "WF0009999",
-    aadharNo: "777788889999",
-    panNo: "KLMNO9012P",
-    udyogAadharNo: "UAN9998887",
-    govtApprovalCertificate: null,
-    vendorDocs: null,
-    vendorImage: null,
-    aadharPhoto: null,
-    panPhoto: null,
-    vendorOtherDetails: "Third vendor dummy data.",
-    govtApprovalCertificateUrl: "",
-    vendorDocsUrl: "",
-    vendorImageUrl: "",
-    aadharPhotoUrl: "",
-    panPhotoUrl: "",
-    status: "Active"
-  }
-];
+import { DUMMY_VENDORS } from './dummyVendors';
+
+
 
 export default function OnboardVendorPage() {
   const { isDark, toggleTheme } = useTheme();
